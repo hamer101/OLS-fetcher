@@ -58,7 +58,7 @@ with requests.Session() as s:
     # Signing in
     login_page = s.get(LOGIN_GET)
     login_soup = BeautifulSoup(login_page.text, 'html5lib')
-    token = login_soup.find('input', {'name':'_token'}).get('value')                  # An addtitional verification token is placed in a hidden input field
+    token = login_soup.find('input', {'name':'_token'}).get('value')            # An addtitional verification token is placed in a hidden input field
     login_details['_token'] = token
     dashboard_page = s.post(LOGIN_POST, data=login_details)
     
