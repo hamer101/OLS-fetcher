@@ -1,18 +1,5 @@
-<style>
-.boxBorder {
-     border: 1px solid #3366;
-     padding: 10px;
-     outline: #3366 solid 1px;
-     outline-offset: 5px;
-   }
-</style>
-
-
-<center>
 
 # _***OLS FETCHER***_
-
-</center>
 
 ## Abstract
 
@@ -49,8 +36,8 @@ The readme here serves a purpose of a private project summary, since the code it
 
     While solving the exam or exercise and commiting a mistake, the green, correct answer gets displayed. Playing around with chrome's DevTools shows, that it is not a response from the site's servers.
 
-    <img src="img/finding_exploit_1.png" width="33%"/><img src="img/finding_exploit_2.png" width="33%"/>
-    <img src="img/finding_exploit_3.png" width="33%"/>
+    <img src="img/finding_exploit_1.png" width="49%"/> <img src="img/finding_exploit_2.png" width="49%"/>
+    <img src="img/finding_exploit_3.png"/>
 
     As no POST requests are made during the examination but we recieve a correction (or validation) it is unavoidable that we store the answers locally, and thus have an access to them even before we even begin the assigment.
 
@@ -68,9 +55,9 @@ The readme here serves a purpose of a private project summary, since the code it
 
     Their exact structure  &ndash;  to the extend that concerns us  &ndash;  can be seen on screenshots below:
 
-    <img src="img/json_1.png" alt="drawing"/>
-    <img src="img/json_2.png" alt="drawing"/>
-    <img src="img/json_3.png" alt="drawing" />
+    <img src="img/json_1.png"/>
+    <img src="img/json_2.png"/>
+    <img src="img/json_3.png" />
     
 
 - ### Signing in:
@@ -97,7 +84,7 @@ The readme here serves a purpose of a private project summary, since the code it
 
     A post request without credentials, serving as a example:
 
-    <img src="img/login_1.png" alt="drawing" width="50%"/><img src="img/login_2.png" alt="drawing" width="50%"/>
+    <img src="img/login_1.png" width="50%"/><img src="img/login_2.png" width="50%"/>
 
 ## The script
 
@@ -116,63 +103,4 @@ Even though the result get's stripped down not to include non-obligatory activit
 
 This list consists of steps necessary and sufficient to pass OLS's C1 english course. The first level is composed of unordered lesson titles. The second level has the form of ACIVITY_TYPE: id_of_activity with the third level being either an instruction of "Just clicking it" or a ordered list of test's / exercise's correst answers.
 
-<div class="boxBorder">
-    <ul>
-    <ul>
-        <li>EN_GB_C1_VOCABULARY_COMPARING_POLITICAL_CANDIDATES</li>
-        <ul>
-        <ul>
-            <li>SUMMARY_TEST: en_gb_c1_vocabulary_comparing_political_candidates_summary_test_summary_test</li>
-            <ol>
-            <li>human</li>
-            <li>climb</li>
-            <li>politician</li>
-            <li>pointed out</li>
-            <li>scandal</li>
-            <li>dedicated</li>
-            <li>debate</li>
-            <li>compare</li>
-            <li>campaign</li>
-            <li>good on TV</li>
-            <li>corruption</li>
-            <li>experienced</li>
-            <li>promises</li>
-            <li>unpopular</li>
-            <li>ladder</li>
-            <li>MP</li>
-            <li>ambitious</li>
-            <li>stand up for</li>
-            <li>tough</li>
-            <li>bid for power</li>
-            <li>hard-boiled</li>
-            <li>candidate</li>
-            <li>impressive</li>
-            <li>political</li>
-            <li>leader</li>
-            <li>commitment</li>
-            <li>turncoat</li>
-            </ol>
-        </ul>
-        </ul>
-    </ul>
-    <ul>
-        <li>EN_GB_B1_OTHER_GIVING_YOUR_OPINION_ABOUT_POLITICS</li>
-        <ul>
-        <ul>
-            <li>VIDEO: en_gb_b1_other_giving_your_opinion_about_politics_video_video_what_do_you_think_about_politics</li>
-            <ul>
-            <li>Just click it</li>
-            </ul>
-        </ul>
-        <ul>
-            <li>EXERCISE: en_gb_b1_other_giving_your_opinion_about_politics_exercise_politics</li>
-            <ol>
-            <li>boring</li>
-            <li>they should be trusted to make the right decision</li>
-            <li>everybody should be interested in politics</li>
-            <li>the low turn-outs in some elections</li>
-            <li>you have to get involved in it</li>
-            <li>you should let them know</li>
-            </ol>
-        </ul>
-</div> 
+<img src="img/list.png"/>
